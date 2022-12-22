@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fooding/static/css/main.95fe3fe7.css",
+    "main.js": "/fooding/static/js/main.b2d16560.js",
+    "static/js/787.976ca11c.chunk.js": "/fooding/static/js/787.976ca11c.chunk.js",
+    "static/media/service.png": "/fooding/static/media/service.30bea2591730d7b315d5.png",
+    "static/media/logo.svg": "/fooding/static/media/logo.56106c1a3b2276d8ae7f69cb4c112d70.svg",
+    "static/media/beach.png": "/fooding/static/media/beach.62ae826912f604041d87.png",
+    "static/media/meet.png": "/fooding/static/media/meet.f5d26ba9d2c838fa8b70.png",
+    "static/media/korxona.png": "/fooding/static/media/korxona.407f50ba46f8fa076376.png",
+    "static/media/quti.png": "/fooding/static/media/quti.fbf51c744e5662d0f015.png",
+    "static/media/back.svg": "/fooding/static/media/back.4ab0708bdd0d5e4c1179.svg",
+    "static/media/lupa.svg": "/fooding/static/media/lupa.b0e1230f44d45be275086fe089ff5dda.svg",
+    "static/media/mol.svg": "/fooding/static/media/mol.27bfc17ab63c99719f41749c868970b6.svg",
+    "static/media/sen.svg": "/fooding/static/media/sen.3e6b19f8af826d1d3331a72cec4bdf2b.svg",
+    "static/media/Montserrat-Regular.woff": "/fooding/static/media/Montserrat-Regular.d6faae4f5b1637779ae9.woff",
+    "static/media/Haulage.svg": "/fooding/static/media/Haulage.b56de3ba25bfb0d325c830550d24a289.svg",
+    "static/media/manufacture.svg": "/fooding/static/media/manufacture.7dbf3f01275504d6b4cae6584bbc6167.svg",
+    "static/media/Logistics.svg": "/fooding/static/media/Logistics.0b1a31b564fe44e268339e283eef4d7d.svg",
+    "static/media/deliver.svg": "/fooding/static/media/deliver.6842748c7097085032a343884379d759.svg",
+    "static/media/Consultation.svg": "/fooding/static/media/Consultation.ee7ea81d640c19f6187b52ef95072df1.svg",
+    "index.html": "/fooding/index.html",
+    "main.95fe3fe7.css.map": "/fooding/static/css/main.95fe3fe7.css.map",
+    "main.b2d16560.js.map": "/fooding/static/js/main.b2d16560.js.map",
+    "787.976ca11c.chunk.js.map": "/fooding/static/js/787.976ca11c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95fe3fe7.css",
+    "static/js/main.b2d16560.js"
+  ]
+}
