@@ -1,0 +1,358 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-Regular.woff");
+}
+
+
+
+.App {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    background: #F1F1F1;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+}
+
+header nav {
+    width: 66.60%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .navLink {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .navLink button {
+    min-width: 165px;
+    padding: 11px 29px;
+    border: 1.17635px solid #8AC653;
+    border-radius: 24.7034px;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.1295px;
+    line-height: 20px;
+    /* identical to box height, or 102% */
+
+
+    color: #191819;
+}
+
+header nav .navLink ul {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navLink ul a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.4081px;
+    line-height: 21px;
+    /* identical to box height, or 154% */
+
+
+    color: #191819;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.navLink ul a::before {
+    content: "";
+    position: absolute;
+    width: 5.5px;
+    height: 5.5px;
+    display: none;
+    background-color: #2ACC32;
+    border-radius: 50%;
+    bottom: -6px;
+    left: 50%;
+}
+
+.navLink ul a:hover {
+    color: #2ACC32;
+}
+
+.navLink ul a:hover::before {
+    display: block;
+}
+
+
+.service {
+    width: 66.60%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    min-height: 347px;
+    background: linear-gradient(89.15deg, #191819 39.5%, rgba(248, 248, 248, 0) 99.27%), url("./images/service.png");
+    border-radius: 28.3565px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37.862px;
+    line-height: 73px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.service h1 {
+    width: 90%;
+    display: flex;
+    word-spacing: 55px;
+    line-height: 150px;
+}
+
+.service h1 span {
+    background-image: url("./images/back.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25%;
+
+    text-align: center;
+
+    display: block;
+    line-height: 150px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.cards {
+    width: 66.6%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    gap: 50px;
+
+    align-self: center;
+
+}
+
+.card {
+    display: flex;
+    overflow: hidden;
+
+    width: 100%;
+    height: 449px;
+    background: #FFFFFF;
+    border-radius: 34.0278px;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #8AC653;
+}
+
+
+.card .title {
+    width: 90%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36.4139px;
+    line-height: 39px;
+    /* identical to box height, or 107% */
+
+
+    color: #2ACC32;
+}
+
+.card .info {
+    width: 90%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8999px;
+    line-height: 30px;
+
+
+
+    color: #191819;
+}
+
+.card .main {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.cardDeliver {
+    width: 66.6%;
+    align-self: center;
+    background-color: #EEFFEF;
+}
+
+
+.search {
+    width: 66.6%;
+    align-self: center;
+    display: grid;
+    grid-template-areas:
+        "card cardBig"
+        "image cardBig";
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.search .top {
+    grid-area: card;
+    height: 100%;
+}
+
+.search .korxona {
+    grid-area: image;
+    height: 100%;
+}
+
+.search .cardBig {
+    grid-area: cardBig;
+    height: 100%;
+}
+
+
+.search .cardBig .icon {
+    margin-top: 0px;
+}
+
+.Manufacturing {
+    height: 1077px;
+    width: 66.6%;
+    align-self: center;
+    background-color: #EEFFEF;
+}
+
+.freeImages {
+    width: 66.6%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.Packaging {
+    width: 66.6%;
+    align-self: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 30% 20% 30%;
+    align-items: center;
+    background-color: #fff;
+    height: 290px;
+
+}
+
+.Footerlogo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+address {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.7014px;
+    line-height: 27px;
+    /* or 144% */
+
+    letter-spacing: -0.03em;
+
+    color: #191819;
+
+}
+
+footer .links {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+footer .links a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.7014px;
+    line-height: 27px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.03em;
+
+    color: #191819;
+    text-decoration: none;
+}
+.linkSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linkSocial .icons {
+    display: flex;
+    gap: 10px;
+}
+.linkSocial a{
+    width: 26px;
+    display: block;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #2ACC32;
+    text-align: center;
+    padding: 10px;
+}
+.linkSocial a i{
+    color: #2ACC32;
+    font-size: 20px;
+}
